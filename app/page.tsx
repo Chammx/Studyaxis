@@ -1,5 +1,4 @@
-
-'use client'
+ 'use client'
 
 import { motion } from 'framer-motion'
 import {
@@ -77,12 +76,15 @@ export default function Home() {
             <a href="#services" className="hover:text-blue-600 transition">
               Services
             </a>
+
             <a href="#countries" className="hover:text-blue-600 transition">
               Destinations
             </a>
+
             <a href="#process" className="hover:text-blue-600 transition">
               Process
             </a>
+
             <a href="#contact" className="hover:text-blue-600 transition">
               Contact
             </a>
@@ -168,8 +170,10 @@ export default function Home() {
 
             <div className="absolute -top-6 -left-6 bg-white shadow-xl rounded-2xl p-5 flex items-center gap-4">
               <Plane className="text-blue-600" />
+
               <div>
                 <h4 className="font-semibold">Visa Assistance</h4>
+
                 <p className="text-sm text-gray-500">
                   End-to-end support
                 </p>
@@ -178,8 +182,12 @@ export default function Home() {
 
             <div className="absolute bottom-6 right-6 bg-white shadow-xl rounded-2xl p-5 flex items-center gap-4">
               <Globe className="text-yellow-500" />
+
               <div>
-                <h4 className="font-semibold">Global Universities</h4>
+                <h4 className="font-semibold">
+                  Global Universities
+                </h4>
+
                 <p className="text-sm text-gray-500">
                   Multiple destinations
                 </p>
@@ -190,15 +198,13 @@ export default function Home() {
       </section>
 
       {/* SERVICES */}
-      <section
-        id="services"
-        className="py-24 bg-white"
-      >
+      <section id="services" className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold">
               Our Services
             </h2>
+
             <p className="text-gray-600 mt-4">
               Complete support for your study abroad journey.
             </p>
@@ -234,15 +240,13 @@ export default function Home() {
       </section>
 
       {/* COUNTRIES */}
-      <section
-        id="countries"
-        className="py-24 bg-gray-50"
-      >
+      <section id="countries" className="py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold">
               Popular Study Destinations
             </h2>
+
             <p className="text-gray-600 mt-4">
               Explore top countries for international education.
             </p>
@@ -279,18 +283,15 @@ export default function Home() {
       </section>
 
       {/* PROCESS */}
-      <section
-        id="process"
-        className="py-24 bg-white"
-      >
+      <section id="process" className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <h2 className="text-4xl font-bold mb-4">
             Our Process
           </h2>
 
           <p className="text-gray-600 mb-16">
-            A simple and transparent process to help you achieve your
-            dream university.
+            A simple and transparent process to help you achieve
+            your dream university.
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -322,15 +323,16 @@ export default function Home() {
 
           <div className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-[40px] p-12">
             <p className="text-2xl leading-relaxed font-light">
-              “StudyAxis helped me throughout my admission and visa
-              process. The team was supportive, professional, and always
-              available for guidance.”
+              “StudyAxis helped me throughout my admission and
+              visa process. The team was supportive, professional,
+              and always available for guidance.”
             </p>
 
             <div className="mt-10">
               <h4 className="font-semibold text-xl">
                 Arjun Sharma
               </h4>
+
               <p className="text-blue-100">
                 MSc Student • Canada
               </p>
@@ -340,10 +342,7 @@ export default function Home() {
       </section>
 
       {/* CTA */}
-      <section
-        id="contact"
-        className="py-24 bg-white"
-      >
+      <section id="contact" className="py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="bg-gray-900 rounded-[40px] p-12 md:p-20 text-white text-center relative overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-yellow-500/10" />
@@ -357,8 +356,8 @@ export default function Home() {
               </h2>
 
               <p className="mt-6 text-gray-300 max-w-2xl mx-auto text-lg">
-                Get expert guidance for admissions, scholarships,
-                visas, and university selection.
+                Get expert guidance for admissions,
+                scholarships, visas, and university selection.
               </p>
 
               <div className="flex flex-wrap justify-center gap-4 mt-10">
@@ -383,9 +382,11 @@ export default function Home() {
             <h3 className="text-2xl font-bold text-white mb-4">
               StudyAxis
             </h3>
+
             <p className="leading-relaxed text-sm">
-              Helping students achieve their dreams of studying abroad
-              with expert guidance and personalized support.
+              Helping students achieve their dreams of studying
+              abroad with expert guidance and personalized
+              support.
             </p>
           </div>
 
@@ -393,6 +394,7 @@ export default function Home() {
             <h4 className="text-white font-semibold mb-4">
               Destinations
             </h4>
+
             <ul className="space-y-2 text-sm">
               <li>Canada</li>
               <li>Australia</li>
@@ -405,6 +407,7 @@ export default function Home() {
             <h4 className="text-white font-semibold mb-4">
               Services
             </h4>
+
             <ul className="space-y-2 text-sm">
               <li>Visa Assistance</li>
               <li>Career Counselling</li>
@@ -417,6 +420,7 @@ export default function Home() {
             <h4 className="text-white font-semibold mb-4">
               Contact
             </h4>
+
             <ul className="space-y-2 text-sm">
               <li>studyaxis@email.com</li>
               <li>+91 98765 43210</li>
@@ -430,16 +434,14 @@ export default function Home() {
         </div>
       </footer>
 
-      {/* WHATSAPP FLOATING BUTTON */}
+      {/* WHATSAPP BUTTON */}
       <a
         href="https://wa.me/919876543210"
         target="_blank"
         className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white px-5 py-4 rounded-full shadow-2xl z-50 transition"
       >
         WhatsApp
-      </a>
+  </a>
     </main>
   )
-}
-```
-
+ }
