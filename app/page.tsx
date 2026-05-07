@@ -1,4 +1,4 @@
- 'use client'
+'use client'
 
 import { motion } from 'framer-motion'
 import {
@@ -15,22 +15,22 @@ const countries = [
   {
     name: 'Canada',
     image:
-      'https://images.unsplash.com/photo-1517935706615-2717063c2225?q=80&w=1200&auto=format&fit=crop',
+      'https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg',
   },
   {
     name: 'United Kingdom',
     image:
-      'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?q=80&w=1200&auto=format&fit=crop',
+      'https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg',
   },
   {
     name: 'Australia',
     image:
-      'https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?q=80&w=1200&auto=format&fit=crop',
+      'https://images.pexels.com/photos/995764/pexels-photo-995764.jpeg',
   },
   {
     name: 'Germany',
     image:
-      'https://images.unsplash.com/photo-1467269204594-9661b134dd2b?q=80&w=1200&auto=format&fit=crop',
+      'https://images.pexels.com/photos/109629/pexels-photo-109629.jpeg',
   },
 ]
 
@@ -90,9 +90,13 @@ export default function Home() {
             </a>
           </nav>
 
-          <button className="bg-blue-600 text-white px-5 py-2 rounded-xl hover:bg-blue-700 transition">
+          <a
+            href="https://wa.me/919148528115"
+            target="_blank"
+            className="bg-blue-600 text-white px-5 py-2 rounded-xl hover:bg-blue-700 transition"
+          >
             Free Consultation
-          </button>
+          </a>
         </div>
       </header>
 
@@ -122,14 +126,21 @@ export default function Home() {
             </p>
 
             <div className="flex flex-wrap gap-4 mt-10">
-              <button className="bg-blue-600 hover:bg-blue-700 text-white px-7 py-4 rounded-2xl font-semibold transition flex items-center gap-2">
+              <a
+                href="https://wa.me/919148528115"
+                target="_blank"
+                className="bg-blue-600 hover:bg-blue-700 text-white px-7 py-4 rounded-2xl font-semibold transition flex items-center gap-2"
+              >
                 Book Free Consultation
                 <ChevronRight size={18} />
-              </button>
+              </a>
 
-              <button className="border border-gray-300 hover:bg-gray-100 px-7 py-4 rounded-2xl font-semibold transition">
+              <a
+                href="#countries"
+                className="border border-gray-300 hover:bg-gray-100 px-7 py-4 rounded-2xl font-semibold transition"
+              >
                 Explore Countries
-              </button>
+              </a>
             </div>
 
             <div className="flex flex-wrap gap-8 mt-12 text-sm text-gray-600">
@@ -163,7 +174,7 @@ export default function Home() {
             className="relative"
           >
             <img
-              src="https://images.pexels.com/photos/6146970/pexels-photo-6146970.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="https://images.pexels.com/photos/6146970/pexels-photo-6146970.jpeg"
               alt="student"
               className="rounded-[40px] shadow-2xl w-full object-cover h-[650px]"
             />
@@ -271,10 +282,6 @@ export default function Home() {
                   <h3 className="text-3xl font-bold">
                     {country.name}
                   </h3>
-
-                  <button className="mt-4 bg-white text-black px-5 py-2 rounded-xl font-medium hover:bg-blue-600 hover:text-white transition">
-                    Explore
-                  </button>
                 </div>
               </motion.div>
             ))}
@@ -314,39 +321,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* TESTIMONIAL */}
-      <section className="py-24 bg-gradient-to-br from-blue-600 to-blue-800 text-white">
-        <div className="max-w-5xl mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold mb-8">
-            Student Success Stories
-          </h2>
-
-          <div className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-[40px] p-12">
-            <p className="text-2xl leading-relaxed font-light">
-              “StudyAxis helped me throughout my admission and
-              visa process. The team was supportive, professional,
-              and always available for guidance.”
-            </p>
-
-            <div className="mt-10">
-              <h4 className="font-semibold text-xl">
-                Arjun Sharma
-              </h4>
-
-              <p className="text-blue-100">
-                MSc Student • Canada
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* CTA */}
       <section id="contact" className="py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="bg-gray-900 rounded-[40px] p-12 md:p-20 text-white text-center relative overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-yellow-500/10" />
-
             <div className="relative z-10">
               <h2 className="text-4xl md:text-5xl font-bold leading-tight">
                 Ready To Start Your
@@ -361,14 +339,20 @@ export default function Home() {
               </p>
 
               <div className="flex flex-wrap justify-center gap-4 mt-10">
-                <button className="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-2xl font-semibold transition flex items-center gap-2">
+                <a
+                  href="tel:+919148528115"
+                  className="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-2xl font-semibold transition flex items-center gap-2"
+                >
                   <Phone size={18} />
-                  Book Free Consultation
-                </button>
+                  Call Now
+                </a>
 
-                <button className="border border-white/30 hover:bg-white hover:text-black px-8 py-4 rounded-2xl font-semibold transition">
+                <a
+                  href="mailto:muhammaddilkash7@gmail.com"
+                  className="border border-white/30 hover:bg-white hover:text-black px-8 py-4 rounded-2xl font-semibold transition"
+                >
                   Contact Us
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -405,19 +389,6 @@ export default function Home() {
 
           <div>
             <h4 className="text-white font-semibold mb-4">
-              Services
-            </h4>
-
-            <ul className="space-y-2 text-sm">
-              <li>Visa Assistance</li>
-              <li>Career Counselling</li>
-              <li>University Selection</li>
-              <li>Scholarships</li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="text-white font-semibold mb-4">
               Contact
             </h4>
 
@@ -441,7 +412,7 @@ export default function Home() {
         className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white px-5 py-4 rounded-full shadow-2xl z-50 transition"
       >
         WhatsApp
-  </a>
+      </a>
     </main>
   )
- }
+}
