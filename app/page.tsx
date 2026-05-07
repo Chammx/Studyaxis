@@ -163,7 +163,7 @@ export default function Home() {
             className="relative"
           >
             <img
-              src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1200&auto=format&fit=crop"
+              src="https://images.pexels.com/photos/6146970/pexels-photo-6146970.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="student"
               className="rounded-[40px] shadow-2xl w-full object-cover h-[650px]"
             />
@@ -422,9 +422,9 @@ export default function Home() {
             </h4>
 
             <ul className="space-y-2 text-sm">
-              <li>studyaxis@email.com</li>
-              <li>+91 98765 43210</li>
-              <li>Kerala, India</li>
+              <li>📞 +91 9148528115</li>
+              <li>✉️ muhammaddilkash7@gmail.com</li>
+              <li>📍 Mangalore, Karnataka</li>
             </ul>
           </div>
         </div>
@@ -436,7 +436,7 @@ export default function Home() {
 
       {/* WHATSAPP BUTTON */}
       <a
-        href="https://wa.me/919876543210"
+        href="https://wa.me/919148528115"
         target="_blank"
         className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white px-5 py-4 rounded-full shadow-2xl z-50 transition"
       >
