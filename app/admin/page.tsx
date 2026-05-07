@@ -2,7 +2,7 @@ export default function AdminPage() {
   return (
     <main className="min-h-screen bg-gray-100 p-10">
       <h1 className="text-4xl font-bold mb-8">
-        StudyAxis Admin Dashboard
+        StudyAxis CRM Dashboard
       </h1>
 
       <div className="grid md:grid-cols-3 gap-6">
